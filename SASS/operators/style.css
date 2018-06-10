@@ -1,0 +1,15 @@
+.border, .red, .blue, .green {
+  border: 1px solid;
+  padding: 12px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75); }
+
+.red {
+  border-color: red; }
+
+.blue {
+  border-color: blue; }
+
+.green {
+  border-color: green; }
+
+/*# sourceMappingURL=style.css.map */

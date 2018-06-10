@@ -1,0 +1,67 @@
+<!-- Traversing Ignoring Whitespace Elements
+Create a page with two “galleries”.
+Each gallery should contain 3 photos and it should be wrapped in a div.
+Pictures should be 33% wide.
+
+One picture in the first gallery should have a red border around it.
+Red borders are the result of applying the “selected” class.
+
+Create a function that selects an image with border and removes its borders.
+It should use traversing technique to navigate to the second gallery.
+In the second gallery, apply borders to the middle picture. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        img {
+            width: 33%;
+            box-sizing: border-box;
+        }
+
+        .redBorder {
+            border: 5px solid tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg" alt="">
+        <img class="redBorder" src="https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg" alt="">
+        <img src="https://www.elastic.co/assets/bltada7771f270d08f6/enhanced-buzz-1492-1379411828-15.jpg" alt="">
+    </div>
+    <div>
+        <img src="http://i.dailymail.co.uk/i/pix/2016/09/06/11/37F60FD200000578-0-image-a-5_1473156426673.jpg" alt="">
+        <img src="http://i.dailymail.co.uk/i/pix/2016/09/06/11/37F60FD200000578-0-image-a-5_1473156426673.jpg" alt="">
+        <img src="http://i.dailymail.co.uk/i/pix/2016/09/06/11/37F60FD200000578-0-image-a-5_1473156426673.jpg" alt="">
+    </div>
+
+
+
+    <script>
+        var body = document.querySelector('body');
+        body.addEventListener('click', klikic);
+
+        function klikic() {
+
+            var redImage = document.querySelector('.redBorder');
+
+            redImage.classList.remove('redBorder');
+            var middleImg = document.querySelectorAll('div:nth-child(2) img:nth-child(2)');
+            middleImg[0].classList = 'redBorder';
+            // console.log(middleImg);
+
+        }
+
+
+
+    </script>
+</body>
+
+</html>

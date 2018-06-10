@@ -1,0 +1,8 @@
+@import 'var';
+@import 'mixin';
+div{
+    @include box-shadow($shadow);
+    width: 200px;
+    height: 150px;
+    
+}

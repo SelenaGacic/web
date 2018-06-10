@@ -1,0 +1,12 @@
+div {
+  background-color: red;
+  border: 1px solid black; }
+
+div {
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  width: 200px;
+  height: 150px; }
+
+/*# sourceMappingURL=style.css.map */

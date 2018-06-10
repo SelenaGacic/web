@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMI,QAAG;EACC,gBAAgB,EAPL,GAAG;EAQd,WAAW,EAPL,SAAS;EAQf,WAAG;IACC,gBAAgB,EARR,IAAI;EAUhB,oBAAc;IACV,WAAW,EAVR,OAAO",
+"sources": ["style2.scss"],
+"names": [],
+"file": "test.css"
+}

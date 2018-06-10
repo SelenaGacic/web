@@ -1,0 +1,64 @@
+.first {
+  background-color: #18bc9c; }
+
+section > img {
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px; }
+
+h1 {
+  color: white;
+  text-align: center; }
+
+h5 {
+  color: white;
+  text-align: center; }
+
+.contact {
+  color: black;
+  text-align: center;
+  padding: 30px; }
+
+footer {
+  background-color: #2c3e50; }
+
+header {
+  background-color: #2c3e50;
+  color: white; }
+
+.navbar-nav {
+  float: right;
+  color: white; }
+
+.backgroundnav .navbar-brand {
+  background-color: #2c3e50;
+  color: white; }
+
+.dropdown-toggle {
+  background-color: #18bc9c; }
+
+h2 {
+  text-align: center;
+  color: black; }
+
+.img-fluid {
+  padding: 12px; }
+
+h3 {
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+
+.third {
+  background-color: #18bc9c;
+  margin: 0 auto; }
+
+p {
+  color: white; }
+
+article {
+  margin: 20px 30px 0 30px; }
+
+/*# sourceMappingURL=main.css.map */

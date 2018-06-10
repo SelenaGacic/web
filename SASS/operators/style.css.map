@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAC,4BAAQ;EACJ,MAAM,EAAE,SAAS;EACjB,OAAO,EAAE,IAAI;EACb,UAAU,EAAE,qCAAqC;;AAGrD,IAAK;EAGD,YAAY,EAAE,GAAG;;AAGrB,KAAM;EAEF,YAAY,EAAE,IAAI;;AAGtB,MAAO;EAEH,YAAY,EAAE,KAAK",
+"sources": ["stayle.scss"],
+"names": [],
+"file": "style.css"
+}

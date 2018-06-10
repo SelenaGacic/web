@@ -1,0 +1,57 @@
+<!-- Attributes
+Create a form that contains multiple input elements with labels.
+Some of those elements should be required.
+
+Create a function that validates the form.
+The function checks each input element that belongs to the form.
+If the element has the required attribute and no data, it should get red borders. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .redBorder {
+            border: 2px solid tomato;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <label>Name
+            <input type="text" required>
+        </label>
+        <label>Age
+            <input type="number">
+        </label>
+        <label>Address
+            <input type="text">
+        </label>
+        <button type="submit">Submit</button>
+
+    </form>
+
+
+
+    <script>
+        var button = document.querySelector('button');
+        button.addEventListener('click', klikic);
+        function klikic() {
+            var requiredElementList = document.querySelectorAll('input[required]');
+            requiredElementList.forEach(function (element) {
+                if (element.value === "") {
+                    element.classList = 'redBorder';
+                }
+            })
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!-- Traversing
+Create two unordered lists.
+Each list should be wrapped in a div element.
+One <li> element in the second list should have a class “active”, which sets its background color.
+
+Create a function that selects the <li> element with class “active”.
+Remove the class from that element, and then select the first <li> element in the first unordered list using node relations.
+Apply class to that newly selected <li> element
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .active {
+            background: turquoise;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>asd</li>
+            <li>456</li>
+            <li>qwe</li>
+        </ul>
+    </div>
+
+    <div>
+        <ul>
+            <li>asd</li>
+            <li class="active">456</li>
+            <li>qwe</li>
+        </ul>
+    </div>
+
+
+    <script>
+        var activeLi = document.querySelector('.active');
+        // console.log(activeLi);
+        activeLi.classList.remove('active');
+    var firstLi = document.querySelector('li').classList = 'active';
+    console.log(firstLi);
+    
+
+    </script>
+</body>
+
+</html>

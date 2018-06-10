@@ -1,0 +1,17 @@
+$color-background: red;
+$font-family: helvetica;
+$color2-background: blue;
+$font-family2: Georgia;
+
+table {
+    tr {
+        background-color: $color-background;
+        font-family: $font-family;
+        td {
+            background-color: $color2-background;
+        }
+        &:first-child {
+            font-family: $font-family2;
+        }
+    }
+}

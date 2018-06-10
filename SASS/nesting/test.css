@@ -1,0 +1,9 @@
+table tr {
+  background-color: red;
+  font-family: helvetica; }
+  table tr td {
+    background-color: blue; }
+  table tr:first-child {
+    font-family: Georgia; }
+
+/*# sourceMappingURL=test.css.map */

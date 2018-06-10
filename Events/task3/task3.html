@@ -1,0 +1,63 @@
+<!-- Events using eventListeners
+Soccer player
+Create page which has soccer field as bg image
+In top left corner there should be image of soccer player
+When user clicks anywhere on the field, the player is moved to that position
+Add the button which is used to disable player movement
+Images ( https://goo.gl/YDjwi4 ) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-image: url("./field.png");
+            background-size: cover;
+        }
+
+        img {
+            position: absolute;
+            width: 100px;
+            user-select: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <img src="./player.png" alt="">
+
+    <button>disable movement</button>
+
+
+    <script>
+        var image = document.querySelector('img');
+
+        document.addEventListener('click', move);
+
+        function move(event) {
+
+            var x = event.clientX;     // Get the horizontal coordinate
+            var y = event.clientY;     // Get the vertical coordinate
+
+            image.style.left = x + 'px';
+            image.style.top = y + 'px';
+        }
+
+        var button = document.querySelector('button');
+
+        button.addEventListener('click', disable);
+
+
+
+    </script>
+</body>
+
+</html>

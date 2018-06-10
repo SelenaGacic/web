@@ -1,0 +1,14 @@
+$shadow:10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+div {
+    width: 300px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    @include box-shadow(10px 10px 5px 0px rgba(0, 0, 0, 0.5))
+}

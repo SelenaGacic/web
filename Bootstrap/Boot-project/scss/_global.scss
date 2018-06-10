@@ -1,0 +1,29 @@
+
+$green-color:#18bc9c;
+$blue-color: #2c3e50;
+$colorLetter:white;
+$text-align: center;
+
+
+
+
+.first {
+    background-color: $green-color;
+}
+
+section>img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+h1 {
+    color: $colorLetter;
+    text-align: $text-align;
+}
+
+h5 {
+    color: $colorLetter;
+    text-align: $text-align;
+}

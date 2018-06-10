@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://raw.githubusercontent.com/ninojovic/bit-web/master/DOM/Football%20field/img/field.png");
+    background-size: cover;
+}
+
+img {
+    position: absolute;
+    width: 100px;
+    user-select: none;
+}
+
+button {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 44%;
+    margin-top: 20px;
+}

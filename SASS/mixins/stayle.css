@@ -1,0 +1,10 @@
+div {
+  width: 300px;
+  border: 25px solid green;
+  padding: 25px;
+  margin: 25px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5); }
+
+/*# sourceMappingURL=stayle.css.map */

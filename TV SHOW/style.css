@@ -1,0 +1,9 @@
+nav {
+    position: relative;
+}
+
+.search-result {
+    position: absolute;
+    bottom: -475px;
+    z-index: 1;
+}
